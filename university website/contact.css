@@ -1,0 +1,116 @@
+body {
+    margin: 0px;
+ }
+ body{
+   background-image: linear-gradient(to bottom,rgba(71, 71, 236, 0.822),rgb(208, 204, 204));
+ }
+ 
+/* .backimg {
+    background-image:linear-gradient(to top, rgba(172, 178, 183, 0.283), rgba(109, 110, 111, 0.626)),url('./univercity_picture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+ }*/
+ 
+ #navbar {
+    display: flex;
+    background-color: brown;
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+ }
+ 
+ #navbar div {
+    align-items: center;
+    display: flex;
+ }
+ 
+ #navbar1 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+ }
+ 
+ a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .c1{
+   display: flex;
+   padding-top: 150px;
+   padding-bottom: 150px;
+ }
+ #para{
+   padding: 50px;
+
+ }
+ #para h1{
+   font-size: 50px;
+ }
+ #para p{
+   font-size: 30px;
+   font-weight: bold;
+ }
+ #contact{
+   display: flex;
+   margin-left: -40px;
+ }
+ #contact li{
+   list-style-type: none;
+   padding: 10px;
+   font-size: 20px;
+   font-weight: bold;
+   padding-left: 0px; 
+ }
+ .siteimg{
+    margin-right: 50px;
+    margin-top: 25px;
+ }
+ footer{
+
+   background-image: linear-gradient(to bottom,rgba(172, 86, 86, 0.822),rgba(101, 232, 169, 0.596));
+   display: flex;
+   justify-content: space-around;
+}
+.address1 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address1 li{
+   list-style-type: none;
+}
+.address2 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address2 li{
+   list-style-type: none;
+}
+.address3 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address3 li{
+   list-style-type: none;
+}
+.address4 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address4 li{
+   list-style-type: none;
+}
+
+
+
+
+
+
+
+ 
+ 

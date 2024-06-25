@@ -1,0 +1,94 @@
+body {
+    margin: 0px;
+ }
+ 
+ #navbar {
+    display: flex;
+    background-color: brown;
+    color: white;
+    justify-content: space-around;
+    position: sticky;
+    top: 0px;
+ }
+ 
+ #navbar div {
+    align-items: center;
+    display: flex;
+ }
+ 
+ #navbar1 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+ }
+ 
+ a {
+    text-decoration: none;
+    color:white;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .backimg {
+    background-image:linear-gradient(to bottom, rgba(69, 199, 127, 0.811), rgba(161, 90, 197, 0.774));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100;
+    height: 600px;
+    display: flex;
+    padding-top:50px;
+ } 
+#about1{
+    margin: 50px;
+
+}
+#para{
+ font-size: 25px;
+}
+#para p{
+    text-align: justify;
+    padding-right: 40px;
+}
+#para h1{
+    margin-top: 40px;
+    margin-left: 175px;
+}
+footer{
+
+    background-image: linear-gradient(to bottom,rgba(172, 86, 86, 0.822),rgba(101, 232, 169, 0.596));
+    display: flex;
+    justify-content: space-around;
+ }
+ .address1 h4{
+    padding:20px 30px 0px;
+    font-size: 20px;
+ }
+ .address1 li{
+    list-style-type: none;
+ }
+ .address2 h4{
+    padding:20px 30px 0px;
+    font-size: 20px;
+ }
+ .address2 li{
+    list-style-type: none;
+ }
+ .address3 h4{
+    padding:20px 30px 0px;
+    font-size: 20px;
+ }
+ .address3 li{
+    list-style-type: none;
+ }
+ .address4 h4{
+    padding:20px 30px 0px;
+    font-size: 20px;
+ }
+ .address4 li{
+    list-style-type: none;
+ }
+ 
+ 
+ 
+ 
+ 

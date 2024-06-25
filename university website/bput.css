@@ -1,0 +1,193 @@
+body {
+   margin: 0px;
+}
+
+.backimg {
+   background-image:linear-gradient(to top, rgba(172, 178, 183, 0.283), rgba(109, 110, 111, 0.626)),url('./univercity_picture.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 900px;
+}
+
+#navbar {
+   display: flex;
+   background-color: brown;
+   color: white;
+   justify-content: space-around;
+   position: sticky;
+   top: 0px;
+}
+
+#navbar div {
+   align-items: center;
+   display: flex;
+}
+
+#navbar1 {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+}
+
+a {
+   text-decoration: none;
+   color:white;
+   padding: 20px;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+#home1 {
+   padding: 190px 155px 0px;
+   font-size: 90px;
+   color:black;
+}
+
+#para1 {
+   margin-top: -50px;
+   padding: 0px 155px;
+   font-size: 30px;
+   color:black;
+   font-weight: bold;
+}
+
+#button1 {
+   background-color: rgb(118, 8, 238);
+   padding: 15px 20px;
+   margin-left: 155px;
+   margin-top: 60px;
+   border-radius: 5px;
+}
+
+.backimg1 {
+   display: flex;
+   background-image: linear-gradient(to left, rgba(40, 40, 211, 0.79), rgba(88, 90, 95, 0.813));
+   padding: 100px 80px;
+}
+
+#home2 {
+   font-size: 50px;
+   color: white;
+   padding-right: 40px;
+}
+
+#para2 {
+   font-size: 30px;
+   font-weight: bold;
+   padding-right: 40px;
+}
+
+.backimg2 {
+   background-image: linear-gradient(to right, rgb(130, 193, 235), rgba(211, 112, 211, 0.748));
+}
+ #home3{
+    padding:60px 80px;
+    font-size:50px;
+ }
+
+#para3 {
+   margin: 10px;
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 40px;
+   margin-left:80px;
+   margin-bottom: 0px;
+
+
+}
+#para3 div{
+   border: 3px solid white;
+   width:25%;
+   margin-right: 20px;
+   border-radius: 8px;
+   box-shadow: 5px 6px 5px rgba(44, 45, 45, 0.838);
+}
+.backimg3{
+   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.845),rgba(46, 43, 43, 0.779));
+}
+#home4{
+   font-size: 50px;
+   margin-top: 0px;
+   padding:60px 85px 0px;
+}
+#para4{
+   display: flex;
+   justify-content: space-around;
+}
+.text{
+   display:flex;
+   padding: 80px 80px;
+}
+
+#text1{
+   color:cornsilk;
+}
+#text1:hover{
+   cursor:pointer;
+   border:2px solid red;
+   box-shadow: 2px 2px  6px  red;
+   border-radius: 4px;
+   padding:10px;
+   transition-duration: 0.4s;
+}
+#text2{
+   color:cornsilk;
+   margin:0px 0px 0px 60px;
+}
+#text2:hover{
+   cursor:pointer;
+   border:2px solid red;
+   box-shadow: 2px 2px  6px  red;
+   border-radius: 4px;
+   padding:10px;
+   transition-duration: 0.4s;
+}
+#text3{
+   color:cornsilk;
+   margin:0px -55px 0px 78px;
+}
+#text3:hover{
+   cursor:pointer;
+   border:2px solid red;
+   box-shadow: 2px 2px  6px  red;
+   border-radius: 4px;
+   padding:10px;
+   transition-duration: 0.4s;
+}
+footer{
+   background-image: linear-gradient(to bottom,rgba(172, 86, 86, 0.822),rgba(101, 232, 169, 0.662));
+   display: flex;
+   justify-content: space-around;
+}
+.address1 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address1 li{
+   list-style-type: none;
+}
+.address2 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address2 li{
+   list-style-type: none;
+}
+.address3 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address3 li{
+   list-style-type: none;
+}
+.address4 h4{
+   padding:20px 30px 0px;
+   font-size: 20px;
+}
+.address4 li{
+   list-style-type: none;
+}
+
+
+
